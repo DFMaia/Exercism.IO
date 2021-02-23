@@ -18,7 +18,7 @@
  * Zaphod	One for Zaphod, one for me.
  */
 
-public class B_TwoFer {
+public class AAB_TwoFer {
 
     public String twofer(String name) {
         return (name == null) ? "One for you, one for me." : "One for " + name + ", one for me.";

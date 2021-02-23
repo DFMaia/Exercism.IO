@@ -5,7 +5,7 @@
  */
 
 
-public class F_ReverseString {
+public class AAF_ReverseString {
 
     String reversedName = "";
 

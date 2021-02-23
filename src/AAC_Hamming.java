@@ -25,13 +25,13 @@
  * returning a special value) may differ between languages.
  */
 
-public class C_Hamming {
+public class AAC_Hamming {
 
     int distance;
     String leftStrandUpperCase;
     String rightStrandUpperCase;
 
-    public C_Hamming(String leftStrand, String rightStrand) {
+    public AAC_Hamming(String leftStrand, String rightStrand) {
 
         if(leftStrand.isEmpty() && !rightStrand.isEmpty()) throw new IllegalArgumentException("left strand must not be empty.");
 

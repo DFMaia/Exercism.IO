@@ -29,11 +29,11 @@
  */
 
 
-public class E_ScrabbleScore {
+public class AAE_ScrabbleScore {
 
     public int score = 0;
 
-    E_ScrabbleScore(String word) {
+    AAE_ScrabbleScore(String word) {
 
         String validWordUpperCase = word.toUpperCase();
 

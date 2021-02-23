@@ -13,16 +13,16 @@
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-public class D_Gigasecond {
+public class AAD_Gigasecond {
 
     public LocalDateTime validLocalDateTime;
     public static final int GIGASECOND = 1000000000;
 
-    public D_Gigasecond(LocalDate moment) {
+    public AAD_Gigasecond(LocalDate moment) {
         this(moment.atStartOfDay());
     }
 
-    public D_Gigasecond(LocalDateTime moment) {
+    public AAD_Gigasecond(LocalDateTime moment) {
         this.validLocalDateTime = moment;
     }
 
